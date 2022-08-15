@@ -42,7 +42,7 @@ curl -i -H "Content-Type: application/json" -X GET localhost:8080/listOverduePac
 curl -i -H "Content-Type: application/json" -X GET localhost:8080/listUpcomingPackage
 
 
-7) Mark a package as delivered.
+7)Mark a package as delivered.
 curl -i -H "Content-Type:application/json" -X POST localhost:8080/markPackageAsDelivered/1
 
 
