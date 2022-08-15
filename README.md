@@ -46,5 +46,5 @@ curl -i -H "Content-Type: application/json" -X GET localhost:8080/listUpcomingPa
 curl -i -H "Content-Type:application/json" -X POST localhost:8080/markPackageAsDelivered/1
 
 
-7)Save the result of packageList in JSON file.
+8)Save the result of packageList in JSON file.
 curl -i -H "Content-Type: application/json" -X GET localhost:8080/exit
